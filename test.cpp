@@ -64,7 +64,7 @@ TEST(WordPack, InvalidCharacter)
         }
     }, std::invalid_argument);
 
-        EXPECT_THROW(
+    EXPECT_THROW(
     {
         try
         {

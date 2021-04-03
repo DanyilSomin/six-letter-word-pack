@@ -44,7 +44,7 @@ TEST(WordPack, InvalidCharacter)
         }
         catch(const std::invalid_argument& e)
         {
-            EXPECT_STREQ( "Invalid character passed into getLetterOffset(). "
+            EXPECT_STREQ( "Invalid character passed into getLetterShift(). "
                           "Latin letter expected.", e.what() );
             throw;
         }
@@ -58,7 +58,7 @@ TEST(WordPack, InvalidCharacter)
         }
         catch(const std::invalid_argument& e)
         {
-            EXPECT_STREQ( "Invalid character passed into getLetterOffset(). "
+            EXPECT_STREQ( "Invalid character passed into getLetterShift(). "
                           "Latin letter expected.", e.what() );
             throw;
         }
@@ -72,7 +72,7 @@ TEST(WordPack, InvalidCharacter)
         }
         catch(const std::invalid_argument& e)
         {
-            EXPECT_STREQ( "Invalid character passed into getLetterOffset(). "
+            EXPECT_STREQ( "Invalid character passed into getLetterShift(). "
                           "Latin letter expected.", e.what() );
             throw;
         }
